@@ -8,18 +8,13 @@ body {
     margin: 0
 }
 
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0
-}
-
-    #mjeReciclamos{
-    background:#156cc9;
-    font-size: 140px;
+#mjeReciclamos{
+    margin: 0;
+    background:rgb(3, 35, 54);
+    font-size: 30rem;
     text-align:center;
     font-weight:300;
     mix-blend-mode: multiply;
-    z-index: 1;
 }
 
 hr {
@@ -2421,7 +2416,7 @@ html,body {
 body {
     font-size: 14px;
     font-family: StemWebRegular, Arial, san-serif;
-    background: #afc6de;
+    background: #181927;
     -webkit-font-smoothing: antialiased
 }
 
@@ -2915,7 +2910,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 
 .main-nav-link {
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 11px;
     letter-spacing: 2px
 }
 
@@ -3166,8 +3161,6 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: 3;
-    opacity: 50%;
 }
 
 .description {
