@@ -1,4 +1,6 @@
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,500&family=Luxurious+Roman&display=swap');
+
 html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%
@@ -2443,7 +2445,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 
 .l-header {
     display: block;
-    padding-top: 40px;
+    padding-top: 2rem;
     position: absolute;
     width: 100%
 }
@@ -2513,8 +2515,8 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 }
 
 .logo {
-    width: 55px;
-    height: 41px;
+    width: 79px;
+    height: 60px;
     background: url("/assets/logoTalleresSolidariosLasTunas.jpg") no-repeat;
     background-size: cover;
     display: block;
@@ -3049,7 +3051,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
     top: 0;
     left: 0;
     bottom: 0;
-    margin: auto;
+    margin: 13rem auto;
     height: 20px;
     width: 180px;
     transform-origin: 0 50%;
@@ -3070,7 +3072,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 
 .social-nav-link {
     text-decoration: none;
-    color: #fff;
+    color: #05433c;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: 20px;
@@ -3113,7 +3115,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 .sharing-text-wrapper {
     max-width: 780px;
     min-width: 650px;
-    margin: 0 auto;
+    margin: 2px 5rem;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -3123,9 +3125,10 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 
 .sharing-text {
     font-size: 45px;
-    font-family: Playfair, Times, serif;
-    color: #fff;
-    margin-bottom: 70px;
+    font-family: 'Cormorant', serif;
+    font-family: 'Luxurious Roman', cursive;
+    color: #0b1c39;
+    margin-bottom: 19rem;
     font-weight: 400;
     line-height: 58px;
     overflow: visible;
@@ -3134,7 +3137,8 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 
 .sharing-text-origin {
     display: none;
-    font-weight: 500
+    font-weight: 500;
+
 }
 
 .sharing-link {
@@ -3182,13 +3186,14 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 }
 
 .description-item {
-    margin: 40px 0
+    margin: 40px 0;
+    color: #0b1c39;
 }
 
 .strategy {
     max-width: 800px;
     margin: 0 auto;
-    color: #fff;
+    color: #05031b;
     padding: 50px 0 50px 0
 }
 
@@ -3202,7 +3207,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 }
 
 .strategy-text {
-    font-size: 15px;
+    font-size: 1.4rem;
     line-height: 25px;
     margin-bottom: 116px
 }
@@ -4078,6 +4083,12 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
     max-height: 100%;
     height: 100% !important;
     cursor: default !important
+}
+
+.subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #0b1c39;
 }
 
 .chart-pos {
