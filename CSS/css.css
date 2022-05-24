@@ -1,5 +1,5 @@
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,500&family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
 
 html {
     line-height: 1.15;
@@ -12,7 +12,7 @@ body {
 
 h1 {
     font-size: 2em;
-    margin: 0.67em 0
+    margin: 0.67em 0;
 }
 
     #mjeReciclamos{
@@ -3125,14 +3125,15 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 
 .sharing-text {
     font-size: 45px;
-    font-family: 'Cormorant', serif;
-    font-family: 'Luxurious Roman', cursive;
+    font-family: 'IBM Plex Sans', serif;
+    /* font-family: 'Luxurious Roman', cursive; */
     color: #0b1c39;
     margin-bottom: 19rem;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 58px;
     overflow: visible;
-    position: relative
+    position: relative;
+    text-align: center;
 }
 
 .sharing-text-origin {
@@ -3197,6 +3198,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
     padding: 50px 0 50px 0
 }
 
+
 .strategy-title {
     font-size: 45px;
     line-height: 58px;
@@ -3257,7 +3259,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 }
 
 .strategy-desc-title {
-    font-size: 25px;
+    font-size: 2.3rem;
     left: 37px;
     font-family: Playfair, Times, serif;
     font-weight: 400;
@@ -3266,14 +3268,16 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 
 .strategy-desc-text {
     opacity: .5;
-    max-width: 550px
+    max-width: 550px;
+    font-size: 1.5rem;
+    margin-top: 2rem;
 }
 
 .advantages {
     position: relative;
     margin: 0 auto;
     width: 100%;
-    color: #fff;
+    color: #05031b;
     padding: 142px 20px 215px 20px;
     overflow: hidden;
     box-sizing: border-box
@@ -3346,7 +3350,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 .how-to {
     max-width: 1000px;
     margin: 0 auto;
-    color: #fff;
+    color: #05031b;
     padding: 100px 20px 300px 20px;
     overflow: hidden
 }
@@ -3383,8 +3387,9 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
     position: relative;
     display: inline-block;
     text-decoration: none;
-    font-size: 12px;
-    letter-spacing: 2px
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #05031b;
 }
 
 .how-to-desc-list {
