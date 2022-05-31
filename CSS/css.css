@@ -6,22 +6,9 @@ html {
     -webkit-text-size-adjust: 100%
 }
 
-body {
-    margin: 0
-}
-
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
-}
-
-    #mjeReciclamos{
-    background:#156cc9;
-    font-size: 140px;
-    text-align:center;
-    font-weight:300;
-    mix-blend-mode: multiply;
-    z-index: 1;
 }
 
 hr {
@@ -2423,7 +2410,7 @@ html,body {
 body {
     font-size: 14px;
     font-family: StemWebRegular, Arial, san-serif;
-    background: #afc6de;
+    background: #d3e7fc;
     -webkit-font-smoothing: antialiased
 }
 
@@ -2466,7 +2453,6 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 
 .l-main-nav {
     display: inline-block;
-    float: left
 }
 
 .l-aside-nav {
@@ -2515,8 +2501,8 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 }
 
 .logo {
-    width: 79px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     background: url("/assets/logoTalleresSolidariosLasTunas.jpg") no-repeat;
     background-size: cover;
     display: block;
@@ -3153,28 +3139,29 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
     margin-right: 15px
 }
 
+#mjeReciclamos{
+    background:#484f56;
+    font-size: 30rem;
+    text-align:center;
+    font-weight:300;
+    mix-blend-mode: multiply;
+}
 .presentation {
     position: relative;
-    /* overflow: hidden; */
-    max-width: 1000px;
-    margin: 0 auto;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    overflow: hidden;
+    /* margin: 0; */
+    /* padding-top: 100px; */
+    /* padding-bottom: 50px; */
     color:#fff;
 }
-
 .presentation-video {
-    width: 100%;
     position:absolute;
     top:0;
     left:0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: 3;
-    opacity: 50%;
 }
-
 .description {
     max-width: 800px;
     margin: 0 auto;
@@ -3290,7 +3277,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 
 .advantages-title {
     letter-spacing: 2px;
-    font-size: 11px;
+    font-size: 30px;
     text-transform: uppercase;
     text-align: center;
     margin: 26px 0 28px 0
@@ -3897,7 +3884,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
     transform: translateY(0)
 }
 
-.cookie-notification {
+/* .cookie-notification {
     position: fixed;
     bottom: 0;
     background: #f0f0f6;
@@ -3965,7 +3952,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 .m-cookie-notify-show .cookie-notification {
     display: block;
     transform: translateY(0)
-}
+} */
 
 .personal-agent-page {
     font-size: 15px;
@@ -4229,7 +4216,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
     background-color: #f0f0f6
 }
 
-.m-light .cookie-notification {
+/* .m-light .cookie-notification {
     color: #fff;
     background: #181927
 }
@@ -4244,7 +4231,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 
 .m-light .cookie-notification__link::before {
     background: #fff
-}
+} */
 
 @media screen and (max-width: 420px) {
     .team-slider-item {

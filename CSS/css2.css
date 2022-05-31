@@ -1,3 +1,4 @@
+/* Tarjetas con rotación */
 section {
         margin: 0;
         padding: 0;
@@ -8,7 +9,7 @@ section {
         align-items: center;
         justify-content: center;
         min-height: 80vh;
-        background: #181927;
+        /* background: #181927; */
     }
 
 .card {
@@ -89,4 +90,91 @@ section {
 
 .card:hover .back {
     transform: perspective(600px) rotateY(360deg);
+}
+
+/* Galería de fotos */
+.galeriaFotos{
+    width: 90%;
+    margin: 70px auto;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.galeriaFotos .item{
+    height: 400px;
+    width: 25%;
+    border: 4px solid #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+.item img{
+    transition: 1s;
+    height: 100%;
+}
+.img1{
+    opacity: 0.2;
+}
+.img1:hover{
+    width: 122%;
+    opacity: 1;
+}
+.img2{
+    opacity: 0.2;
+}
+.img2:hover{
+    width: 122%;
+    opacity: 1;
+}
+.img3{
+    opacity: 0.2;
+}
+.img3:hover{
+    width: 122%;
+    opacity: 1;
+}
+.img4{
+    opacity: 0.2;
+}
+.img4:hover{
+    width: 122%;
+    opacity: 1;
+}
+.img5{
+    opacity: 0.2;
+}
+.img5:hover{
+    width: 122%;
+    opacity: 1;
+}
+.img6{
+    opacity: 0.2;
+}
+.img6:hover{
+    width: 122%;
+    opacity: 1;
+}
+.img7{
+    opacity: 0.2;
+}
+.img7:hover{
+    width: 122%;
+    opacity: 1;
+}
+.img8{
+    opacity: 0.2;
+}
+.img8:hover{
+    width: 122%;
+    opacity: 1;
+}
+.img9{
+    opacity: 0.2;
+}
+.img9:hover{
+    width: 122%;
+    opacity: 1;
 }
