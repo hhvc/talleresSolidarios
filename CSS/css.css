@@ -2198,7 +2198,7 @@ template {
     transition-duration: 0.15s;
     transition-timing-function: linear;
     font: inherit;
-    color: inherit;
+    color: #0b1c39;
     text-transform: none;
     background-color: transparent;
     border: 0;
@@ -2226,7 +2226,7 @@ template {
 .hamburger-inner,.hamburger-inner::before,.hamburger-inner::after {
     width: 26px;
     height: 1px;
-    background-color: #fff;
+    background-color: #05031b;
     border-radius: 0;
     position: absolute;
     transition-property: transform;
@@ -2408,7 +2408,7 @@ html,body {
 }
 
 body {
-    font-size: 14px;
+    font-size: 0.9rem;
     font-family: StemWebRegular, Arial, san-serif;
     background: #d3e7fc;
     -webkit-font-smoothing: antialiased
@@ -2513,14 +2513,14 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 .menu-link {
     position: relative;
     text-decoration: none;
-    color: #fff
+    color: #05031b;
 }
 
 .menu-link:before {
     content: ' ';
     width: 100%;
     height: 1px;
-    background-color: #fff;
+    background-color: #0b1c39;
     display: block;
     bottom: -5px;
     left: 0;
@@ -2573,7 +2573,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 }
 
 .footer {
-    color: #fff;
+    color: #181927;
     overflow: hidden;
     position: relative;
     width: 100%;
@@ -2615,7 +2615,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 }
 
 .footer-menu-link {
-    color: #fff;
+    color: #0b1c39;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 11px;
@@ -3038,8 +3038,8 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
     left: 0;
     bottom: 0;
     margin: 13rem auto;
-    height: 20px;
-    width: 180px;
+    height: 2rem;
+    width: 18rem;
     transform-origin: 0 50%;
     transform: rotate(90deg) translate(-50%, 50%);
     z-index: 50
@@ -3061,7 +3061,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
     color: #05433c;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 2rem;
     display: inline-block;
     transform: rotate(-90deg)
 }
@@ -3124,7 +3124,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 
 .sharing-text-origin {
     display: none;
-    font-weight: 500;
+    font-weight: 900;
 
 }
 
@@ -3196,7 +3196,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 }
 
 .strategy-text {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     line-height: 25px;
     margin-bottom: 116px
 }
@@ -3206,7 +3206,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 }
 
 .strategy-icon {
-    width: 67px;
+    width: 95px;
     height: 52px;
     /* float: left; */
     display: inline-block;
@@ -3258,6 +3258,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
     max-width: 550px;
     font-size: 1.5rem;
     margin-top: 2rem;
+    line-height: 2rem;
 }
 
 .advantages {
@@ -3762,7 +3763,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 }
 
 .mob-menu-contacts-text {
-    font-size: 15px;
+    font-size: 11px;
     line-height: 22px;
     padding: 0;
     margin: 0 0 20px 0
@@ -4399,6 +4400,10 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
         margin-bottom: 15px
     }
 
+    .sharing-text {
+        margin-bottom: 45rem;
+    }
+
     .mob-menu-left-col {
         width: 100%
     }
@@ -4457,11 +4462,12 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
     }
 
     .m-no-cover .sharing-image {
-        background-size: cover
+        background-size: cover;
+        height: 33%;
     }
 
     .presentation {
-        padding-top: 0
+        padding-top: 0;
     }
 
     .description {
@@ -4584,7 +4590,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
     .how-to-desc-title {
         font-size: 18px;
         line-height: 28px;
-        color: #b1b6ba;
+        color: #0b1c39;
         margin-bottom: 30px
     }
 
@@ -4654,12 +4660,16 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 
     .mob-menu-main-link {
         line-height: 80px;
-        font-size: 50px
+        font-size: 30px
     }
 
     .sharing {
         padding-top: 168px;
         padding-bottom: 50px
+    }
+
+    .sharing-text {
+        margin-bottom: 45rem;
     }
 
     .sharing-text-wrapper {
