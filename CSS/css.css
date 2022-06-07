@@ -3123,7 +3123,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 }
 
 .sharing-text-origin {
-    display: none;
+    display: block;
     font-weight: 900;
 
 }
@@ -4242,6 +4242,16 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 }
 
 @media screen and (max-width: 479px) {
+    .main-nav-link{
+        font-size: 0.4rem;
+    }
+    .social-nav-link {
+        font-size: 0.4rem;
+        display: block;
+    }
+    .sharing-text {
+        font-size: 10px;
+    }
     .footer-col-wrapper,.footer-menu,.footer-copy {
         width:100%
     }
@@ -4266,25 +4276,25 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
     }
 
     .m-show-on-tablet {
-        display: none
+        display: block
     }
 
     .m-show-on-desktop {
-        display: none
+        display: block
     }
 
     .m-show-on-mobile {
         display: block
     }
 
-    .hamburger {
+    /* .hamburger {
         opacity: 1;
         visibility: visible
     }
 
     .hamburger:hover {
         opacity: .7
-    }
+    } */
 
     .l-header {
         padding-top: 20px
@@ -4300,8 +4310,8 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
     }
 
     .logo {
-        width: 140px;
-        height: 36px
+        width: 70px;
+        height: 70px
     }
 
     .description {
@@ -4395,6 +4405,18 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 }
 
 @media screen and (max-width: 600px) {
+    .main-nav-link{
+        font-size: 0.4rem;
+    }
+    .social-nav-link {
+        font-size: 0.4rem;
+    }
+    .sharing-text {
+        font-size: 7px;
+    }
+    .main-nav-item {
+        margin-right: 15px ;
+    }
     .footer-menu-item {
         display:block;
         margin-bottom: 15px
@@ -4637,7 +4659,17 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
     }
 }
 
+
 @media screen and (max-width: 690px) {
+    .main-nav-link{
+        font-size: 0.5rem;
+    }
+    .social-nav-link {
+        font-size: 0.5rem;
+    }
+    .sharing-text {
+        font-size: 10px;
+    }
     .how-to-desc-list {
         width:100% !important
     }
@@ -4654,6 +4686,15 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 }
 
 @media screen and (max-width: 959px) {
+    .main-nav-link{
+        font-size: 0.7rem;
+    }
+    .social-nav-link {
+        font-size: 0.7rem;
+    }
+    .sharing-text {
+        font-size: 10px;
+    }
     .mob-menu-left-col {
         padding-right:0
     }
@@ -4736,6 +4777,15 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 }
 
 @media screen and (min-width: 480px) and (max-width: 959px) {
+    .main-nav-link{
+        font-size: 0.7rem;
+    }
+    .social-nav-link {
+        font-size: 1rem;
+    }
+    .sharing-text {
+        font-size: 20px;
+    }
     .footer-col-wrapper,.footer-menu,.footer-copy {
         width:100% !important
     }
@@ -4758,30 +4808,30 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
         margin-bottom: 41px
     }
 
-    .m-show-on-desktop {
+    /* .m-show-on-desktop {
         display: none
-    }
+    } */
 
-    .m-show-on-mobile {
+    /* .m-show-on-mobile {
         display: none
     }
 
     .m-show-on-tablet {
         display: block
-    }
+    } */
 
-    .anchor-nav,.social-nav-wrapper {
+    /* .anchor-nav,.social-nav-wrapper {
         display: none
-    }
+    } */
 
-    .hamburger {
+    /* .hamburger {
         opacity: 1;
         visibility: visible
     }
 
     .hamburger:hover {
         opacity: .7
-    }
+    } */
 
     .l-header {
         padding-top: 20px
@@ -4789,6 +4839,13 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
 }
 
 @media screen and (min-width: 960px) and (max-width: 1099px) {
+    .main-nav-link{
+        font-size: 1.2rem;
+    }
+    .sharing-text {
+        font-size: 30px;
+    }
+
     .main-nav-item,.aside-nav-item {
         margin-right:40px
     }
@@ -4798,7 +4855,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
     }
 
     .anchor-nav,.social-nav-wrapper {
-        display: none
+        display: block
     }
 
     .m-show-on-desktop {
