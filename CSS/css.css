@@ -4239,11 +4239,21 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
         width:50%;
         margin-bottom: 30px
     }
+    .m-show-on-desktop {
+        display: inline-block;
+    }
+    .l-main-nav {
+        display: inline-block;
+    }
+
 }
 
 @media screen and (max-width: 479px) {
     .main-nav-link{
         font-size: 0.4rem;
+    }
+    .how-to-desc-reg{
+        font-size: 13px;
     }
     .social-nav-link {
         font-size: 0.4rem;
@@ -4280,7 +4290,8 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
     }
 
     .m-show-on-desktop {
-        display: block
+        display: inline;
+        padding: 14px;
     }
 
     .m-show-on-mobile {
@@ -4416,6 +4427,7 @@ body.m-hide-float-elems .anchor-nav,body.m-hide-float-elems .social-nav,body.m-h
     }
     .main-nav-item {
         margin-right: 15px ;
+        padding: 2px;
     }
     .footer-menu-item {
         display:block;
